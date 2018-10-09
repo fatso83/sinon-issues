@@ -3,7 +3,7 @@ import sinon from "sinon";
 import * as Module from "./modules";
 
 describe("original test case", () => {
-  it("works fine", () => {
+  it("fails when not using CJS compat settings for esm", () => {
 
     sinon
       .createSandbox()
