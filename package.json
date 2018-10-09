@@ -1,0 +1,25 @@
+{
+  "name": "sinon-issues",
+  "version": "1.0.0",
+  "description": "To debug sinon issues",
+  "main": "modules.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatso83/sinon-issues.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatso83/sinon-issues/issues"
+  },
+  "homepage": "https://github.com/fatso83/sinon-issues#readme",
+  "dependencies": {
+    "esm": "^3.0.84",
+    "mocha": "^5.2.0",
+    "sinon": "latest"
+  },
+  "esm": { "cjs": { "mutableNamespace": true } }
+}
