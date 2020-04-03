@@ -1,6 +1,6 @@
-import FakeTimers from '@sinonjs/fake-timers'
+import FakeTimers from "@sinonjs/fake-timers";
 
-FakeTimers.install()
+FakeTimers.install();
 
-console.log(new Date().getTime())
-console.log(Date.now())
+console.log(new Date().getTime());
+console.log(Date.now());
