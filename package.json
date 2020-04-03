@@ -1,25 +1,22 @@
 {
-  "name": "sinon-issues",
+  "name": "test",
   "version": "1.0.0",
-  "description": "To debug sinon issues",
-  "main": "modules.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha -r esm"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fatso83/sinon-issues.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fatso83/sinon-issues/issues"
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0"
   },
-  "homepage": "https://github.com/fatso83/sinon-issues#readme",
   "dependencies": {
-    "esm": "^3.0.84",
-    "mocha": "^5.2.0",
-    "sinon": "latest"
-  },
-  "esm": { "cjs": { "mutableNamespace": true } }
+    "@babel/runtime": "^7.9.2",
+    "@babel/runtime-corejs3": "^7.9.2",
+    "@sinonjs/fake-timers": "^6.0.1"
+  }
 }
